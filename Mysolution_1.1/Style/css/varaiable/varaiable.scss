@@ -1,0 +1,23 @@
+@mixin text() {
+    font-family: $font-family;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1.7rem;
+    color: $text-color;
+}
+
+
+
+
+// ===================VAR=======================
+// COLOUR
+$primary-color: red;
+$primary-color2: #854fee;
+$title-color: #141313;
+$text-color: #777777;
+$border-color: #201f1f17;
+$gradient-color: linear-gradient(90deg, #4458dc, #854fee 100%);
+$shadow: 0px 50px 30px rgba(57, 56, 61,0.205);
+
+$font-family: "Roboto",cursive;
+
